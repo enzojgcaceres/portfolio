@@ -46,7 +46,7 @@ const AboutPage = () => {
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-            La tecnología es la herramienta que amplifica las capacidades humanas y transforma el potencial en realidad.
+              {`La tecnología es la herramienta que amplifica las capacidades humanas y transforma el potencial en realidad.`}
             </span>
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
