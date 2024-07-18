@@ -75,12 +75,12 @@ const TestPage = () => {
   useEffect(() => {
     const interval = setInterval(updateSnakePosition, 200);
     return () => clearInterval(interval);
-  }, [snake, direction]);
+  }, [updateSnakePosition]);
 
   useEffect(() => {
     document.addEventListener("keydown", handleKeyPress);
     return () => document.removeEventListener("keydown", handleKeyPress);
-  }, [direction]);
+  }, [handleKeyPress]);
 
   return (
     <div className="h-screen flex items-center justify-center bg-black">
