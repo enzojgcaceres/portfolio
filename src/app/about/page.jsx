@@ -42,12 +42,13 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">Bio</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              {` Hola! Soy Enzo, un apasionado de la tecnología con un trasfondo diverso y multidisciplinario. Mi viaje en el mundo de la tecnología comenzó con dos cursos fundamentales: uno de introducción a la programación en la Fundación Telefónica y otro de marketing digital avalado por Google. Antes de sumergirme en la tecnología, mediante el bootcamp Fullstack de soyHenry.com, pasé muchos años como músico profesional y técnico de sonido e iluminación en teatros, clubes de jazz y clubes de comedia. Además trabajé en un laboratorio de referencia cromatográfica tanto en el area técnica como en el area de ventas. También soy piloto civil de avión y disfruto practicar deportes como aficionado. Esta combinación única de habilidades y experiencias me ha permitido desarrollar una perspectiva única y adaptable en cualquier desafío que enfrento en el ámbito laboral.`}
+              Hola! Soy Enzo, un apasionado de la tecnología con un trasfondo diverso y multidisciplinario. Mi viaje en el mundo de la tecnología comenzó con dos cursos fundamentales: uno de introducción a la programación en la Fundación Telefónica y otro de marketing digital avalado por Google. Antes de sumergirme en la tecnología, mediante el bootcamp Fullstack de soyHenry.com, pasé muchos años como músico profesional y técnico de sonido e iluminación en teatros, clubes de jazz y clubes de comedia. Además trabajé en un laboratorio de referencia cromatográfica tanto en el área técnica como en el área de ventas. También soy piloto civil de avión y disfruto practicar deportes como aficionado. Esta combinación única de habilidades y experiencias me ha permitido desarrollar una perspectiva única y adaptable en cualquier desafío que enfrento en el ámbito laboral. {" "}
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-              {`La tecnología es la herramienta que amplifica las capacidades humanas y transforma el potencial en realidad.`}
+              La tecnología es la herramienta que amplifica las capacidades humanas y transforma el potencial en realidad. {" "}
             </span>
+
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
               initial={{ opacity: 0.2, y: 0 }}
@@ -265,7 +266,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    Creando campañas de marketing digital para empresas.{" "}
+                    Creando y participando en campañas de marketing digital para nuevos comercios electronicos.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-600 text-sm font-semibold">
