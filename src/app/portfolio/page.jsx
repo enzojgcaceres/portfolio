@@ -116,11 +116,11 @@ const PortfolioPage = () => {
           </div>
           <div className="col-span-12 md:col-span-6">
             <Project
-              title="Rick & Morty App"
+              title="Juana Mart pasterleria"
               type="Project"
               img={project4}
-              link="https://your-demo-link.com"
-              github="https://github.com/enzojgcaceres/ricardo-ft-45a"
+              link="https://juana-smart.vercel.app/"
+              github="https://github.com/enzojgcaceres/juana-smart"
             />
           </div>
         </div>
