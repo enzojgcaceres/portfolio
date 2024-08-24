@@ -7,7 +7,7 @@ import project from "../../../public/travel.png"
 import project1 from "../../../public/Captura de pantalla (5).png"
 import project2 from "../../../public/4vientos.png"
 import project3 from "../../../public/teleraiders.png"
-import project4 from "../../../public/juanaSmart.png"
+import project4 from "../../../public/smartJuana.png"
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
