@@ -16,12 +16,12 @@ const ContactPage = () => {
     setSuccess(false);
 
     emailjs
-      .sendForm(
-        process.env.NEXT_PUBLIC_SERVICE_ID,
-        process.env.NEXT_PUBLIC_TEMPLATE_ID,
-        form.current,
-        process.env.NEXT_PUBLIC_PUBLIC_KEY
-      )
+  .sendForm(
+    process.env.NEXT_PUBLIC_SERVICE_ID,
+    process.env.NEXT_PUBLIC_TEMPLATE_ID,
+    form.current,
+    process.env.NEXT_PUBLIC_PUBLIC_KEY
+  )
       .then(
         () => {
           setSuccess(true);
