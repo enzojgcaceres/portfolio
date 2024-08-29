@@ -34,8 +34,8 @@ const AboutPage = () => {
             <Image
               src="/Enzo.jpg"
               alt=""
-              width={140}
-              height={140}
+              width={110}
+              height={110}
               className="w-28 h-28 rounded-full object-cover"
             />
             {/* BIOGRAPHY TITLE */}
@@ -163,7 +163,7 @@ const AboutPage = () => {
                 JWT
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Nodemailer 
+                Nodemailer
               </div>
             </motion.div>
             {/* SKILL SCROLL SVG */}
@@ -228,7 +228,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Henry
+                    Henry {" "}
                   </div>
                 </div>
                 {/* CENTER */}
@@ -270,7 +270,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Freelance{""}
+                    Freelance{" "}
                   </div>
                 </div>
               </div>
@@ -284,15 +284,15 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    Creando y participando en campañas de marketing digital para nuevos comercios electronicos.{" "}
+                    Creando y participando en campañas de marketing digital para nuevos comercios electronicos. {" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-600 text-sm font-semibold">
-                    2022 - 2023{" "}
+                    2022 - 2023 {" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Freelance{" "}
+                    Freelance {" "}
                   </div>
                 </div>
                 {/* CENTER */}
