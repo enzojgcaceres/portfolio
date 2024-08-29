@@ -43,9 +43,14 @@ const Homepage = () => {
               Mira mis trabajos!
             </button>
             </MotionLink>
+            <MotionLink href="/contact" whileHover={{
+              backgroundColor:["#121212", "rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#121212"],
+              transition: {duration: 1, repeat: Infinity}
+            }}>
             <button className="p-4 rounded-lg ring-1 ring-black hover:bg-white hover:text-black hover:font-bold">
               Contactame
             </button>
+            </MotionLink>
           </div>
         </div>
       </div>
