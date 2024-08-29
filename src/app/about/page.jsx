@@ -34,15 +34,15 @@ const AboutPage = () => {
             <Image
               src="/Enzo.jpg"
               alt=""
-              width={116}
-              height={116}
+              width={140}
+              height={140}
               className="w-28 h-28 rounded-full object-cover"
             />
             {/* BIOGRAPHY TITLE */}
             <h1 className="font-bold text-2xl">Bio</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Hola! Soy Enzo, un apasionado de la tecnología con un trasfondo diverso y multidisciplinario. Mi viaje en el mundo de la tecnología comenzó con dos cursos fundamentales: uno de introducción a la programación en la Fundación Telefónica y otro de marketing digital avalado por Google. Antes de sumergirme en la tecnología, mediante el bootcamp Fullstack de soyHenry.com, pasé muchos años como músico profesional y técnico de sonido e iluminación en teatros, clubes de jazz y clubes de comedia. Además trabajé en un laboratorio de referencia cromatográfica tanto en el área técnica como en el área de ventas. También soy piloto civil de avión y disfruto practicar deportes como aficionado. Esta combinación única de habilidades y experiencias me ha permitido desarrollar una perspectiva única y adaptable en cualquier desafío que enfrento en el ámbito laboral. {" "}
+              Hola! Soy Enzo, un apasionado de la tecnología con un trasfondo diverso y multidisciplinario. Mi viaje por el mundo IT comenzó con dos cursos fundamentales: uno de introducción a la programación en la Fundación Telefónica y otro de marketing digital certificado por Google. Antes de sumergirme de lleno en la tecnología, mediante el bootcamp Fullstack de soyHenry.com, pasé muchos años como músico profesional y técnico de sonido e iluminación en teatros, clubes de jazz y clubes de comedia. Además trabajé en un laboratorio de referencia cromatográfica tanto en el área técnica como en el área de ventas. También soy piloto civil de avión y disfruto practicar deportes como aficionado. Esta combinación única de habilidades y experiencias me ha permitido desarrollar una perspectiva única y adaptable en cualquier desafío que enfrento en el ámbito laboral. Ahora mismo estoy especializandome en el uso de herramientas como Notion y AppSheet entre otras tecnologías de tipo "No Code". Tambien en continua capacitacion para mejorar mis habilidades en SEO y marketing. {" "}
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
@@ -147,6 +147,24 @@ const AboutPage = () => {
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Figma
               </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Notion
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                ShadcnUI
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                AceternityUI
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Auth0
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                JWT
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Nodemailer
+              </div>
             </motion.div>
             {/* SKILL SCROLL SVG */}
             <motion.svg
@@ -244,7 +262,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    Trabaje en diversos proyectos con React y Redux como Freelancer.{" "}
+                    Trabaje en diversos proyectos Front end con React y Redux como Freelancer.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-600 text-sm font-semibold">
@@ -252,7 +270,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Enzo Code+
+                    Freelance
                   </div>
                 </div>
               </div>
@@ -274,7 +292,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Enzo Code+
+                    Freelance
                   </div>
                 </div>
                 {/* CENTER */}
