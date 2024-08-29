@@ -163,7 +163,7 @@ const AboutPage = () => {
                 JWT
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Nodemailer
+                Nodemailer 
               </div>
             </motion.div>
             {/* SKILL SCROLL SVG */}
@@ -258,7 +258,7 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-black text-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Junior React Developer
+                    Junior React Developer{""}
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
@@ -270,7 +270,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Freelance
+                    Freelance{""}
                   </div>
                 </div>
               </div>
@@ -292,7 +292,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Freelance
+                    Freelance{" "}
                   </div>
                 </div>
                 {/* CENTER */}
