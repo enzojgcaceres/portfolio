@@ -5,7 +5,7 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import project from "../../../public/travel.png"
 import project1 from "../../../public/Captura de pantalla (5).png"
-import project2 from "../../../public/4vientos.png"
+import project2 from "../../../public/typeportfolio.png"
 import project3 from "../../../public/teleraiders.png"
 import project4 from "../../../public/smartJuana.png"
 
@@ -98,11 +98,11 @@ const PortfolioPage = () => {
           </div>
           <div className="col-span-12 md:col-span-6">
             <Project
-              title="4 Vientos"
+              title="English Portfolio - Typescript"
               type="Project"
               img={project2}
-              link="https://your-demo-link.com"
-              github="https://github.com/enzojgcaceres/4vientos"
+              link="https://type-portfolio-six.vercel.app/"
+              github="https://github.com/enzojgcaceres/type-portfolio"
             />
           </div>
           <div className="col-span-12 md:col-span-6">
