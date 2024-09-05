@@ -8,6 +8,8 @@ import project1 from "../../../public/Captura de pantalla (5).png"
 import project2 from "../../../public/typeportfolio.png"
 import project3 from "../../../public/teleraiders.png"
 import project4 from "../../../public/smartJuana.png"
+import project5 from "../../../public/4vientos-tiendanube.png"
+import project6 from "../../../public/mama-app.png"
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -121,6 +123,24 @@ const PortfolioPage = () => {
               img={project4}
               link="https://juana-smart.vercel.app/"
               github="https://github.com/enzojgcaceres/juana-smart"
+            />
+          </div>
+          <div className="col-span-12 md:col-span-6">
+            <Project
+              title="4 Vientos - TiendaNube"
+              type="Project"
+              img={project5}
+              link="https://prefix4vientos2.mitiendanube.com/"
+              github="https://github.com/enzojgcaceres"
+            />
+          </div>
+          <div className="col-span-12 md:col-span-6">
+            <Project
+              title="María Julia Gómez - Abogada"
+              type="Project"
+              img={project6}
+              link="https://mama-app-enzos-projects-a85fc39b.vercel.app/"
+              github="https://github.com/enzojgcaceres/mama-app"
             />
           </div>
         </div>
