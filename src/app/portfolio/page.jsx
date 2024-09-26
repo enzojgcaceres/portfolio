@@ -130,7 +130,7 @@ const PortfolioPage = () => {
               title="4 Vientos - TiendaNube"
               type="Project"
               img={project5}
-              link="https://prefix4vientos2.mitiendanube.com/"
+              link="https://sites.google.com/view/somos4vientos/inicio?authuser=0"
               github="https://github.com/enzojgcaceres"
             />
           </div>
