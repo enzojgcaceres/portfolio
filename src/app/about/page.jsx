@@ -42,7 +42,18 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">Bio</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Hola! Soy Enzo, un apasionado de la tecnología con un trasfondo diverso y multidisciplinario. Mi viaje por el mundo IT comenzó con dos cursos fundamentales: uno de introducción a la programación en la Fundación Telefónica y otro de marketing digital certificado por Google. Antes de sumergirme de lleno en la tecnología, mediante el bootcamp Fullstack de soyHenry.com, pasé muchos años como músico profesional y técnico de sonido e iluminación en teatros, clubes de jazz y clubes de comedia. Además trabajé en un laboratorio de referencia cromatográfica tanto en el área técnica como en el área de ventas. También soy piloto civil de avión y disfruto practicar deportes como aficionado. Esta combinación única de habilidades y experiencias me ha permitido desarrollar una perspectiva única y adaptable en cualquier desafío que enfrento en el ámbito laboral. Ahora mismo estoy especializandome en el uso de herramientas como Notion y AppSheet entre otras tecnologías de tipo No Code. Tambien en continua capacitacion para mejorar mis habilidades en SEO y marketing. {" "}
+            ¡Hola!
+Soy Enzo, un apasionado de la tecnología con una trayectoria diversa y multidisciplinaria que me permite abordar desafíos desde una perspectiva única y adaptable.
+
+Actualmente, me estoy especializando en el ecosistema Salesforce, donde he alcanzado el rango de Expeditioner con 62,525 puntos, más de 50 insignias, y dos prestigiosos Superbadges (Apex Specialist y Flow Fundamentals). Mi formación incluye desarrollo, administración y consultoría dentro de Salesforce, y estoy en constante aprendizaje para alcanzar niveles avanzados en soluciones integrales basadas en esta plataforma. Mi objetivo es aportar innovación y eficiencia en proyectos que necesiten optimizar procesos empresariales mediante herramientas de CRM líderes en el mercado.
+
+Mi viaje en el mundo IT comenzó con dos cursos fundamentales: uno de introducción a la programación en la Fundación Telefónica y otro de marketing digital certificado por Google. Posteriormente, consolidé mis habilidades en el desarrollo web como Full Stack Developer a través del exigente bootcamp de soyHenry.com, donde aprendí a construir soluciones completas tanto en el front-end como en el back-end.
+
+Antes de mi inmersión en la tecnología, tuve el privilegio de desarrollar una carrera como músico profesional y técnico de sonido e iluminación, trabajando en teatros, clubes de jazz y comedia. También adquirí experiencia técnica y comercial en un laboratorio especializado en cromatografía, y tengo formación como piloto civil de avión. Esta mezcla única de habilidades me ha enseñado a adaptarme rápidamente a contextos diversos, colaborar efectivamente y aportar creatividad a cada proyecto.
+
+Además, estoy en continuo aprendizaje de herramientas No Code como Notion y AppSheet, y perfeccionando mis conocimientos en SEO y marketing digital para complementar mis habilidades técnicas con estrategias de crecimiento y optimización.
+
+Si buscas a alguien que combine experiencia técnica, creatividad y adaptabilidad, estoy seguro de que puedo aportar valor a tu equipo o proyecto. {" "}
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
@@ -92,6 +103,12 @@ const AboutPage = () => {
             >
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 JavaScript
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                SalesForce
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Apex
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 TypeScript
