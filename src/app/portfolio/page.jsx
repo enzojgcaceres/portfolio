@@ -10,6 +10,8 @@ import project3 from "../../../public/teleraiders.png"
 import project4 from "../../../public/smartJuana.png"
 import project5 from "../../../public/4vientos-tiendanube.png"
 import project6 from "../../../public/mama-app.png"
+import project7 from "../../../public/conversorRomano.png"
+import project8 from "../../../public/meridaTap2.png"
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -82,7 +84,7 @@ const PortfolioPage = () => {
           <div className="col-span-12">
             <FeaturedProject
               title="e-commerce"
-              summary="E-commerce desarrollado con Node.js, React, Redux, Express, PostgreSQL, Tailwind CSS, plataforma de pagos, login y muchas mas funcionalidades."
+              summary="E-commerce desarrollado con Node.js, React, Redux, Express, PostgreSQL, Tailwind CSS, plataforma de pagos, login y muchas más funcionalidades."
               type="Featured Project"
               img={project1}
               link="https://shoe-kingdom-ae164.web.app/index.html"
@@ -127,7 +129,7 @@ const PortfolioPage = () => {
           </div>
           <div className="col-span-12 md:col-span-6">
             <Project
-              title="4 Vientos - TiendaNube"
+              title="4 Vientos - Tienda"
               type="Project"
               img={project5}
               link="https://sites.google.com/view/somos4vientos/inicio?authuser=0"
@@ -143,6 +145,25 @@ const PortfolioPage = () => {
               github="https://github.com/enzojgcaceres/mama-app"
             />
           </div>
+          <div className="col-span-12 md:col-span-6">
+            <Project
+              title="Conversor de números romanos"
+              type="Project"
+              img={project7}
+              link="https://roman-converter-pied.vercel.app/"
+              github="https://github.com/enzojgcaceres/roman-converter"
+            />
+          </div>
+          <div className="col-span-12 md:col-span-6">
+            <Project
+              title="Merida tapices"
+              type="Project"
+              img={project8}
+              link="https://sites.google.com/view/merida-tapices/inicio?authuser=1"
+              github="https://github.com/enzojgcaceres"
+            />
+          </div>
+
         </div>
       </main>
     </>
